@@ -7,6 +7,7 @@ import QuickCount from '@/components/QuickCount.vue'
 Vue.use(Router)
 
 export default new Router({
+  base: '/pilprescount',
   routes: [
     {
       path: '/',
